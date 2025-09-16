@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+        <button id="btn">Click Me</button>
+        <script>
+            let btn=document.getElementById("btn");
+            btn.onclick=function()
+            {
+                alert("First function");
+            }
+
+            btn.onclick=function(){
+                alert("Secound function")
+            }
+
+        </script>
+
+//here second function overwrites the first function.so last function only works.
+
+
+</body>
+</html>

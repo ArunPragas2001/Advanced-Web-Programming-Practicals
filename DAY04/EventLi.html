@@ -1,0 +1,25 @@
+element.addEventListener("Event",function());
+<!DOCTYPE html>
+<html>
+<body>
+
+        <button id="btn">Click Me</button>
+        <script>
+            let btn=document.getElementById("btn");
+            btn.addEventListener("Click",function()
+            {
+                alert("First function");
+            })
+
+            btn.addEventListener("Click",function()
+            {
+                alert("Secound function")
+            })
+
+        </script>
+
+//here second function overwrites the first function.so last function only works.
+
+
+</body>
+</html>
